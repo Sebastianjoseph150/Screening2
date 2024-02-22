@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:screening2/bloc/auth_bloc/bloc/auth_bloc.dart';
-import 'package:screening2/presantaion/log_in.dart';
+import 'package:screening2/presentaions/log_in.dart';
 import 'package:screening2/repositorys/auth_repo.dart';
 
 void main() {

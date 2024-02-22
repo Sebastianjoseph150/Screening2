@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:screening2/bloc/movie_bloc/movie_bloc.dart';
 import 'package:screening2/constants/const.dart';
 import 'package:screening2/model/movie_model.dart';
-import 'package:screening2/presantaion/log_in.dart';
-import 'package:screening2/presantaion/widgets/drawer.dart';
+import 'package:screening2/presentaions/log_in.dart';
+import 'package:screening2/presentaions/widgets/drawer.dart';
 import 'package:screening2/repositorys/movie_repo.dart';
 
 class Homepage extends StatelessWidget {
@@ -25,7 +25,7 @@ class Homepage extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 114, 144, 169),
         ),
         // ignore: prefer_const_constructors
-        drawer:DrawerWidget(),
+        drawer: DrawerWidget(),
         body: BlocBuilder<MovieBloc, MovieState>(
           builder: (context, state) {
             if (state is MovieInitial) {
