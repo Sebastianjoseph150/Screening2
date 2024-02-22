@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:screening2/bloc/auth_bloc/bloc/auth_bloc.dart';
 import 'package:screening2/constants/const.dart';
-import 'package:screening2/presentaions/home_page.dart';
-import 'package:screening2/presentaions/signin.dart';
+import 'package:screening2/presentations/home_page.dart';
+import 'package:screening2/presentations/signin.dart';
 import 'package:screening2/repositorys/auth_repo.dart';
 
 class Login extends StatelessWidget {

@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:screening2/bloc/movie_bloc/movie_bloc.dart';
 import 'package:screening2/constants/const.dart';
 import 'package:screening2/model/movie_model.dart';
-import 'package:screening2/presentaions/log_in.dart';
-import 'package:screening2/presentaions/widgets/drawer.dart';
+import 'package:screening2/presentations/log_in.dart';
+import 'package:screening2/presentations/widgets/drawer.dart';
 import 'package:screening2/repositorys/movie_repo.dart';
 
 class Homepage extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:screening2/presentaions/log_in.dart';
-import 'package:screening2/presentaions/widgets/company_info.dart';
+import 'package:screening2/presentations/log_in.dart';
+import 'package:screening2/presentations/widgets/company_info.dart';
 
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({Key? key});
